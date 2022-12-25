@@ -1,0 +1,25 @@
+return require("packer").startup(function(use)
+
+    use "wbthomason/packer.nvim"
+    use "kyazdani42/nvim-tree.lua"
+    use "akinsho/toggleterm.nvim"
+    use "nvim-lualine/lualine.nvim"
+    use "kyazdani42/nvim-web-devicons"
+    use "nvim-telescope/telescope.nvim"
+    use "nvim-lua/plenary.nvim"
+    use "windwp/nvim-autopairs"
+    use "windwp/nvim-ts-autotag"
+    use "catppuccin/nvim"
+    use "williamboman/mason.nvim"
+    use "williamboman/mason-lspconfig.nvim"
+    use "neovim/nvim-lspconfig"
+    use "hrsh7th/nvim-cmp"
+    use "hrsh7th/cmp-nvim-lsp"
+    use "saadparwaiz1/cmp_luasnip"
+    use "L3MON4D3/LuaSnip"
+    use "onsails/lspkind.nvim"
+	use "akinsho/bufferline.nvim"
+    use "nvim-treesitter/nvim-treesitter"
+    use "glepnir/lspsaga.nvim"
+
+end)
